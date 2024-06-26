@@ -29,7 +29,7 @@ https://code.earthengine.google.com/ee248ddcc718a729b757b90246274a64
 # Households of displacement-affected population groups in Duhok City
 As Duhok City was the city in Duhok District, which was affected mainly by the floods, the impact of the flood to the households of displacement-affected population groups in Duhok City was estimated, using the dataset in REACH Iraq IRQ2308 CCNA. All the data in Duhok Citywere from out-of-camp IDPs. The dominant shelter issues reported were leaks during heavy and light rain (Figure 4). Shelter housing was also one of their top-priority needs (Figure 5).According to the result of flood mapping, the buildings near the roads were flooded. Based on this leaking issue, they had a high chance of house flooding in their shelters. 
 
-![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/Figure%203.%20Flooded%20area%20in%20Duhok%20City.png)
+![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/pie%20shelter%20needs1.png)
 Figure 4. Damage/ issues reported from HHs in Duhok City
 
 ```r
@@ -83,7 +83,7 @@ ggplot(df, aes(x = "", y = df$Counts, fill = df$`Shelter Issue`)) +
   coord_polar("y", start=0)
 ```
 
-![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/Figure%203.%20Flooded%20area%20in%20Duhok%20City.png)
+![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/pie%20shelter%20needs2.png)
 Figure 5. Priority needs reported from HHs in Duhok City
 
 ```r
