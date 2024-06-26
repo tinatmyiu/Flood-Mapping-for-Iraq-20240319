@@ -7,6 +7,10 @@ On 19 March 2024, heavy rainfalls swept through and caused flesh floods in Iraq,
 ![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/Figure%201.%20Duhok%20District.png)
 Figure 1. Duhok District
 
+Here is the code in Google Earth Engine to obtain Figure 1.
+https://code.earthengine.google.com/f9460cecae982de80ed90392b5aa0286
+
+
 # Methodology
 This flood mapping was based on the best practices recommended by UN-SPIDER. After obtaining images from before and after, speckle filter was applied to eliminate the noise in radar data. Masks were also used to remove permanent water, isolated pixels and steep areas in order the obtain flood with large area. Flood area was then calculated. The dataset from REACH Iraq IRQ2308 CCNA was used to estimate the substantial impacts of the flood to the households (HHs) of displacement-affected population groups, as to address their immediate need.
 
@@ -19,6 +23,8 @@ Figure 2. Flooded area in lower region of Duhok District
 ![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/Figure%203.%20Flooded%20area%20in%20Duhok%20City.png)
 Figure 3. Flooded area in Duhok City
 
+Here is the code in Google Earth Engine to obtain Figure 2 and 3.
+https://code.earthengine.google.com/ee248ddcc718a729b757b90246274a64
 
 # Households of displacement-affected population groups in Duhok City
 As Duhok City was the city in Duhok District, which was affected mainly by the floods, the impact of the flood to the households of displacement-affected population groups in Duhok City was estimated, using the dataset in REACH Iraq IRQ2308 CCNA. All the data in Duhok Citywere from out-of-camp IDPs. The dominant shelter issues reported were leaks during heavy and light rain (Figure 4). Shelter housing was also one of their top-priority needs (Figure 5).According to the result of flood mapping, the buildings near the roads were flooded. Based on this leaking issue, they had a high chance of house flooding in their shelters. 
