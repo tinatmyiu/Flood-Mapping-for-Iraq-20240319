@@ -1,4 +1,4 @@
-## Flood mapping of Duhok District and potential impacts of the floods to the households of displacement population groups
+## Flood mapping of Duhok District and potential impacts of the floods to the households of displacement affected population groups
 # Floods in Iraq after heavy rainfalls
 
 
