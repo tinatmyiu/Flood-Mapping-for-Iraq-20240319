@@ -1,5 +1,5 @@
-## Flood mapping of Duhok District and potential impacts of the floods to the households of displacement affected population groups
-# Floods in Iraq after heavy rainfalls
+# Flood mapping of Duhok District and potential impacts of the floods to the households of displacement affected population groups
+## Floods in Iraq after heavy rainfalls
 
 
 On 19 March 2024, heavy rainfalls swept through and caused flesh floods in Iraq, especially the mountainous Kurdistan Region in northern Iraq. Duhok’s Civil Defense Directorate reported that 2 people were killed by their submerged vehicle. Here presented a remote sensing task for the assessment of flooded area in Duhok District. Google Earth Engine was used to perform flood mapping as to show which region was mostly affected by the floods. With the dataset from REACH Iraq IRQ2308 Cross-Cutting Needs Assessment (CCNA), the HH-level Dataset in the most affected region was processed and analysed by using R software.
@@ -7,7 +7,7 @@ On 19 March 2024, heavy rainfalls swept through and caused flesh floods in Iraq,
 ![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/Figure%201.%20Duhok%20District.png)
 Figure 1. Duhok District
 
-# Methodology
+## Methodology
 This flood mapping was based on the best practices recommended by UN-SPIDER. After obtaining images from before and after, speckle filter was applied to eliminate the noise in radar data. Masks were also used to remove permanent water, isolated pixels and steep areas in order the obtain flood with large area. Flood area was then calculated. The dataset from REACH Iraq IRQ2308 CCNA was used to estimate the substantial impacts of the flood to the households (HHs) of displacement-affected population groups, as to address their immediate need.
 
 Here is the link of the javascript code used in ths flood mapping task:
@@ -222,7 +222,7 @@ Figure 3. Flooded area in Duhok City
 Here is the code in Google Earth Engine to obtain Figure 2 and 3.
 https://code.earthengine.google.com/ee248ddcc718a729b757b90246274a64
 
-# Households of displacement-affected population groups in Duhok City
+## Households of displacement-affected population groups in Duhok City
 As Duhok City was the city in Duhok District, which was affected mainly by the floods, the impact of the flood to the households of displacement-affected population groups in Duhok City was estimated, using the dataset in REACH Iraq IRQ2308 CCNA. All the data in Duhok Citywere from out-of-camp IDPs. The dominant shelter issues reported were leaks during heavy and light rain (Figure 4). Shelter housing was also one of their top-priority needs (Figure 5).According to the result of flood mapping, the buildings near the roads were flooded. Based on this leaking issue, they had a high chance of house flooding in their shelters. 
 
 ![paste to excel](https://github.com/tinatmyiu/Flood-Mapping-for-Iraq-20240319/blob/main/pie%20shelter%20needs1.png)
@@ -315,5 +315,5 @@ ggplot(df, aes(x = "", y = perc, fill = `Need priorities`)) +
   theme_void()+
   coord_polar("y", start = 180)
 ```
-# Shelter maintenance and temporary shelters
+## Shelter maintenance and temporary shelters
 The flood mapping indicated that Duhok City was the main region affected by the flood in Duhok District. Shelters maintenance and temporary shelters were suggested for the out-of-campIDPs in Duhok City after the flood, as their shelters were reported to have leaking issue during light and heavy rain. A decline in their housing condition was very much expected. Providing shelter maintenance and temporary shelters would help them to recover from the floods.
